@@ -2,6 +2,31 @@
 // Write a function to sort the given array nums in ascending order.
 // Input: nums = [29,10,14,37,14] -----›››≥≥ Output: [10,14,14,29,37]
 
+/**
+ * Selection Sort Algorithm
+ *
+ * 1. Start from the first element:
+ *    - Assume this is the smallest element for now.
+ *
+ * 2. Search for the smallest element in the unsorted portion:
+ *    - Iterate through the unsorted portion of the array, which starts 
+ *      from the current element to the end.
+ *    - If a smaller element is found, update the index of the smallest 
+ *      element.
+ *
+ * 3. Swap:
+ *    - If the smallest element found in the unsorted portion is not the 
+ *      current element, swap them.
+ *    - This effectively places the smallest element from the unsorted 
+ *      portion to its correct position in the sorted portion.
+ *
+ * 4. Move to the next element:
+ *    - Shift the starting point of the unsorted portion to the next element 
+ *      and repeat the process until the entire array is sorted.
+ */
+
+
+
 function selectionSort(nums) {
     let n = nums.length;
 
