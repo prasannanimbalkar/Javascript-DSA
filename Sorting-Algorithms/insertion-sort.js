@@ -45,5 +45,9 @@ function insertionSort(nums) {
     }
     return nums; // Return the sorted array
 }
+// Best Case Time Complexity = 0(n)
+// Worst Case Time Complexity = 0(n^2)
+// Average Case Time Complexity = 0(n^2)
+// Space Complexity = 0(1)
 
 console.log(insertionSort([29,10,14,37,14,33,8,11]))
